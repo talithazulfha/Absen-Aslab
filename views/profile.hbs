@@ -1,1 +1,11 @@
-<p>Ini profile</p>
+<!-- views/profile.hbs -->
+{{!-- {{> header}} --}}
+<h1>{{title}}</h1>
+<p>Welcome to your profile page.</p>
+<ul>
+  <li><strong>Name:</strong> {{user.name}}</li>
+  <li><strong>NIM:</strong> {{user.nim}}</li>
+  <li><strong>Email:</strong> {{user.email}}</li>
+  <li><strong>Address:</strong> {{user.address}}</li>
+</ul>
+{{> footer}}
